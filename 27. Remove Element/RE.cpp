@@ -3,10 +3,9 @@
 using namespace std;
 
 // Solution
-int removeDuplicates(vector<int>& nums) {
+int removeElement(vector<int>& nums, int val) {
     for(int i = 0 ; i < nums.size() ; i++){
-        if(i == nums.size() - 1) break;
-        if(nums[i] == nums[i+1]){
+        if(nums[i] == val){
             nums.erase(nums.begin() + i);
             i--;
         }
@@ -17,7 +16,7 @@ int removeDuplicates(vector<int>& nums) {
 int main(){
     vector<int> nums = {1,1,2};
 
-    cout << removeDuplicates(nums);
+    cout << removeElement(nums, 3);
 
     return 0;
 }
