@@ -10,6 +10,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+// Solution
 ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
     ListNode dummy(0);
     ListNode* tail = &dummy;
