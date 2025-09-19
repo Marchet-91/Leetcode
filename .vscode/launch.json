@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Coding/LeetCode/28. Find the Index of the First Occurrence in a String",
+      "program": "c:/Coding/LeetCode/28. Find the Index of the First Occurrence in a String/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
